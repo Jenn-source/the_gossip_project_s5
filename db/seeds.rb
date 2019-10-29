@@ -16,7 +16,7 @@ end
 end
 
 20.times do |index|	#cree 20 gossip en reference avec user
-	Gossip.create(title: "Gossip#{index}",content: Faker::TvShows::GameOfThrones.quote, user: User.all.sample)
+	Gossip.create(title: "Gossip\r#{index}",content: Faker::TvShows::GameOfThrones.quote, user: User.all.sample)
 end
 
 puts "all entries added"
