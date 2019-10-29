@@ -6,10 +6,12 @@ Le projet est consacré aux premières pages de l'application : quelques pages s
 
 Pour ce projet, il fallait coder :
 
-* La page d'accueil qui affichera tous les potins créés
-* La page qui présente l'équipe de The Gossip Project, aka moi-même
-* La page de contact où tu trouveras une super fausse adresse de contact
+* La page d'accueil qui affichera tous les potins créés aléatoirement avec Faker
+* La page qui présente la team de The Gossip Project, aka moi-même
+* La page de contact où tu trouveras comment contacter l'équipe
 * Une page de bienvenue, qui accueille l'utilisateur en fonction du nom passé dans l'URL
+* Une page du potin détaillé une fois que tu auras cliqué sur le lien en page d'accueil
+* Une page sur les détails de l'auteur du potin une fois que tu auras cliqué sur le lien de la page potin
 
 
 **Après avoir cloné ce repository, assurez-vous de faire :**
