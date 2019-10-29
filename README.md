@@ -16,6 +16,7 @@ Pour ce projet, il fallait coder :
 ```sh
 $ cd the_gossip_project_s5
 $ bundle install
+$ rails db:migrate et rails db:seed
 $ rails server (et naviguer à partir de localhost:3000)
 ```
 Bon potin!
