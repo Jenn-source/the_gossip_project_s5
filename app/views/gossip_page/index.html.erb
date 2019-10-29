@@ -1,0 +1,19 @@
+<br>
+<h1>Bienvenue sur mon super site de potins !</h1>
+<br>
+<div class="container">
+<% @gossips.each do |gossip| %><br>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title"><%= gossip.title %></h5>
+        <p class="card-text"><%= gossip.user.first_name %></p>
+        <a href="/gossip/<%= gossip.id %>" class="btn btn-success">Savoir ce que raconte ce potin</a>
+      </div>
+    </div>
+  </div>
+</div>
+<% end %>  
+</div>
+

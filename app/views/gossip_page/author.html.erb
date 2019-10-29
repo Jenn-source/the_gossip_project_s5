@@ -1,0 +1,9 @@
+<br>
+<div class="container" style="text-align: center;">
+<div class="card border-success text-center mb-3" style="max-width: 18rem;">
+  <div class="card-header">L'auteur : <%= "#{@user.first_name} #{@user.last_name}, #{@user.age} ans, se trouvant à #{@user.city.name}" %>  </div>
+  <div class="card-body text-success">
+    <h5 class="card-title">Sa description : <%= @user.description %> </h5>
+    <p class="card-text">Pour lui envoyer un email : <a href="mailto:#{<%= @user.email %>}"> <%= @user.email %> </a></p>
+  </div>
+</div>

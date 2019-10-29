@@ -1,0 +1,15 @@
+<br>
+<div class="card">
+  <div class="card-header">
+    <h1><%= @gossip.title %></h1>
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p><%= @gossip.content %></p>
+      <footer class="blockquote-footer">Date de création <cite title="Source Creation"><%= @gossip.created_at %></cite></footer>
+    </blockquote>
+  </div>
+</div>
+<br>
+<br>
+<a class="btn btn-success" href="/author/<%= @gossip.user_id %>">Plus de détails sur l'auteur</a>
